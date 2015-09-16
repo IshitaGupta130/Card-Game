@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#widebox{
+clear:both;
+width:90%;
+margin:0 auto;
+background-color:#C5FF8A;
+height:100px;
+border:1px solid #4F9D00;
+border-radius:10px;
+}
+#successMessage{
+clear:both;
+width:90%;
+height:90px;
+margin:0 auto;
+background-color:#C5FF8A;
+border:1px solid #4F9D00;
+}
+#successMessage h2{
+	color:#4F9D00;
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	text-align:center;
+}
+#successMessage button{
+ position:relative;
+    top:50%; 
+    left:46%;
+
+}
+#widebox p{
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+text-align:center;
+line-height:1.5;
+color:4F9D00;
+}
+#cardpile,#cardslot{
+	clear:both;
+width:90%;
+height:150px;
+margin:0 auto;
+background:#6E6E6E;
+border:1px solid #000;
+border-radius:10px;
+}
+.clearfix{
+	width:100%;
+	height:50px;
+}
+#cardpile div{
+width:8%;
+height:90%;
+border:1px solid #FFF;
+margin:10px;
+float:left;
+vertical-align:middle;
+display:table-cell;
+background-color:#FF5B0D;
+border-radius:10px;
+color:#fff;
+font-family:"Courier New", Courier, monospace;
+font-size:50px;
+text-align:center;
+font-weight:bold;
+}
+#cardslot div{
+width:8%;
+height:90%;
+border:1px dashed #000;
+margin:10px;
+float:left;
+vertical-align:middle;
+display:table-cell;
+background-color:#fff;
+border-radius:10px;
+color:#000;
+font-family:"Courier New", Courier, monospace;
+font-size:20px;
+text-align:center;
+font-weight:bold;
+}
+#cardslot div.hovered{
+	 -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  background-color:#C0C0C0;
+}
+#card1.correct { background: red; }
+#card2.correct { background: brown; }
+#card3.correct { background: orange; }
+#card4.correct { background: yellow; }
+#card5.correct { background: green; }
+#card6.correct { background: cyan; }
+#card7.correct { background: blue; }
+#card8.correct { background: indigo; }
+#card9.correct { background: purple; }
+#card10.correct { background: violet; }
